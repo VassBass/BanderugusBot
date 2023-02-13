@@ -7,6 +7,6 @@ public class Main {
 
     public static void main(String[] args) {
         TelegramBotFactory botFactory = TelegramBotFactory.getInstance();
-        BandergusBotService bot = botFactory.create(BandergusBotService.class);
+        botFactory.create(BandergusBotService.class);
     }
 }
