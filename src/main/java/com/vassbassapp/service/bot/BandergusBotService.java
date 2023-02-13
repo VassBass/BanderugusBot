@@ -26,7 +26,6 @@ public class BandergusBotService extends TelegramLongPollingBot implements BotSe
     @Override
     public void onUpdateReceived(Update update) {
         Long chatId = getChatId(update);
-
         if (chatId != null) {
             SendMessage msg = createMessage("*Hello* Ihor!");
             msg.setChatId(chatId);
@@ -39,11 +38,9 @@ public class BandergusBotService extends TelegramLongPollingBot implements BotSe
         if (update.hasMessage()) {
             return update.getMessage().getFrom().getId();
         }
-
         if (update.hasCallbackQuery()) {
             return update.getCallbackQuery().getFrom().getId();
         }
-
         return null;
     }
 
