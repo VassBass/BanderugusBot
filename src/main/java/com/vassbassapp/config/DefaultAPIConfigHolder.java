@@ -14,8 +14,12 @@ public class DefaultAPIConfigHolder implements APIConfigHolder {
     private final String token;
 
     public DefaultAPIConfigHolder() {
+        this(PROPERTIES_FILE);
+    }
+
+    public DefaultAPIConfigHolder(String propertiesFile) {
         try (InputStream in = DefaultAPIConfigHolder.class.getClassLoader()
-                .getResourceAsStream(PROPERTIES_FILE)){
+                .getResourceAsStream(propertiesFile)){
             Properties properties = new Properties();
             properties.load(in);
 
