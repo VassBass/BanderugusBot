@@ -6,7 +6,7 @@ import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
-public class BandergusBotService extends TelegramLongPollingBot implements BotService {
+public class BandergusBotService extends TelegramLongPollingBot {
 
     private final APIConfigHolder configHolder;
 
@@ -33,8 +33,7 @@ public class BandergusBotService extends TelegramLongPollingBot implements BotSe
         }
     }
 
-    @Override
-    public Long getChatId(Update update) {
+    private Long getChatId(Update update) {
         if (update.hasMessage()) {
             return update.getMessage().getFrom().getId();
         }
@@ -42,13 +41,5 @@ public class BandergusBotService extends TelegramLongPollingBot implements BotSe
             return update.getCallbackQuery().getFrom().getId();
         }
         return null;
-    }
-
-    @Override
-    public SendMessage createMessage(String text) {
-        SendMessage message = new SendMessage();
-        message.setText(text);
-        message.setParseMode("markdown");
-        return message;
     }
 }
