@@ -1,6 +1,7 @@
 package com.vassbassapp.service.bot;
 
 import com.vassbassapp.config.APIConfigHolder;
+import com.vassbassapp.service.bot.session.SessionGenerator;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -27,9 +28,8 @@ public class BandergusBotService extends TelegramLongPollingBot implements BotSe
     public void onUpdateReceived(Update update) {
         Long chatId = getChatId(update);
         if (chatId != null) {
-            SendMessage msg = createMessage("*Hello* Ihor!");
-            msg.setChatId(chatId);
-            sendApiMethodAsync(msg);
+            SendMessage session = SessionGenerator.createSession(chatId, update);
+            sendApiMethodAsync(session);
         }
     }
 
