@@ -1,7 +1,7 @@
 package com.vassbassapp.service.bot;
 
 import com.vassbassapp.config.APIConfigHolder;
-import com.vassbassapp.service.bot.session.SessionGenerator;
+import com.vassbassapp.service.bot.response.SessionGenerator;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;

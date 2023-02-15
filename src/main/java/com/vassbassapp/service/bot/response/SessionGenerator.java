@@ -1,4 +1,4 @@
-package com.vassbassapp.service.bot.session;
+package com.vassbassapp.service.bot.response;
 
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -17,10 +17,10 @@ public class SessionGenerator {
         } else if (update.hasCallbackQuery()) {
             switch (update.getCallbackQuery().getData()) {
                 case REQUEST_GLORY_FOR_UKRAINE:
-                    session = new HeroGlorySession(chatId);
+                    session = new ResponseHeroGlory(chatId);
                     break;
                 case REQUEST_GLORY_FOR_NATION:
-                    session = new EnemyDeathSession(chatId);
+                    session = new ResponseEnemyDeath(chatId);
                     break;
             }
         }
@@ -32,7 +32,7 @@ public class SessionGenerator {
 
     private static SendMessage generateForText(Long chatId, String text) {
         switch (text) {
-            case REQUEST_START: return new HelloSession(chatId);
+            case REQUEST_START: return new ResponseHello(chatId);
             default: return null;
         }
     }
