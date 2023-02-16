@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ef4a0e9-59b2-4057-b630-64802fd31154" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/buttons/bandergus/ButtonTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/buttons/bandergus/ButtonsId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/factory/BandergusBiolab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/model/Bandergus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/resources/BandergusResourceHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/resources/ResourceHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevel1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevel2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevel3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevel4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevelFinal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/ButtonsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/RequestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/TextListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/final.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/level-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/level-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/level-3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/level-4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/factory/ButtonsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/factory/ButtonsFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/BandergusBotExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/BandergusBotExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/BandergusBotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/BandergusBotService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseEnemyDeath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseHello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseHeroGlory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/SessionGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/ButtonsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/ButtonsListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676447686408</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor">
+      <created>1676554821066</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676554821066</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

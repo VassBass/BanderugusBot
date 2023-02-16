@@ -20,7 +20,6 @@ public class ButtonsListener implements Listener {
         return instance;
     }
 
-    //It's singleton too
     @Override
     public Response createResponse(Long chatId, Update update) {
         final String buttonId = update.getCallbackQuery().getData();
