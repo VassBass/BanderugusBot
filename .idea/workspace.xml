@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ef4a0e9-59b2-4057-b630-64802fd31154" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/buttons/bandergus/ButtonTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/buttons/bandergus/ButtonsId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/factory/BandergusBiolab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/model/Bandergus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/resources/BandergusResourceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/resources/ResourceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevel1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevel2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevel3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevel4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseBandergusLevelFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/ButtonsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/Listener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/RequestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/listener/TextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/final.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/level-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/level-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/level-3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/image/level-4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/factory/ButtonsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/factory/ButtonsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/BandergusBotExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/BandergusBotExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/BandergusBotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/BandergusBotService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseEnemyDeath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseHello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/ResponseHeroGlory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vassbassapp/service/bot/response/SessionGenerator.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BanderugusBot" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BanderugusBot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Lh29WfsOwhV5kN3i4yHPDOOO4L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/VasilevIgor/BanderugusBot/src/main/resources/image",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\VasilevIgor\BanderugusBot\src\main\resources\image" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.vassbassapp.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vassbassapp.Main" />
+      <module name="BanderugusBot.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vassbassapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultAPIConfigHolderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.vassbassapp.config.DefaultAPIConfigHolderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.DefaultAPIConfigHolderTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ef4a0e9-59b2-4057-b630-64802fd31154" name="Changes" comment="" />
+      <created>1676308843498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676308843498</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1676314575858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676314575858</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactor">
+      <created>1676317242604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676317242604</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor">
+      <created>1676317400111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676317400111</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add tests">
+      <created>1676369446474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676369446474</updated>
+    </task>
+    <task id="LOCAL-00005" summary="learning next">
+      <created>1676402169842</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676402169842</updated>
+    </task>
+    <task id="LOCAL-00006" summary="learning next">
+      <created>1676402312992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676402312992</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor">
+      <created>1676447686408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676447686408</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init commit" />
+    <MESSAGE value="Add tests" />
+    <MESSAGE value="learning next" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+  </component>
+</project>

@@ -1,5 +1,6 @@
 package com.vassbassapp.service.bot;
 
+import com.vassbassapp.resources.BandergusResourceHolder;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
@@ -16,6 +17,7 @@ public class BandergusBotExecutor implements BotExecutor {
     @Override
     public void execute() {
         try {
+            BandergusResourceHolder.getInstance().readResources();
             TelegramBotsApi api = new TelegramBotsApi(DefaultBotSession.class);
             api.registerBot(bot);
             System.out.printf("%s service was started successful!%n", bot.getBotUsername());
