@@ -21,7 +21,7 @@ public class BandergusBiolab {
         return instance;
     }
 
-    Map<Long, Bandergus> biolab;
+    private final Map<Long, Bandergus> biolab;
 
     public Bandergus getBandergus(Long chatId) {
         return biolab.get(chatId);
