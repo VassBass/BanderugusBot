@@ -3,6 +3,7 @@ package com.vassbassapp.service.bot.response;
 import com.vassbassapp.buttons.bandergus.ButtonTask;
 import com.vassbassapp.factory.ButtonsFactory;
 import com.vassbassapp.resources.BandergusResourceHolder;
+import com.vassbassapp.util.CollectionHelper;
 import com.vassbassapp.util.StringHelper;
 import org.telegram.telegrambots.meta.api.methods.send.SendAnimation;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -37,11 +38,14 @@ public class ResponseBandergusLevel3 implements Response {
         List<InlineKeyboardButton> row4 = List.of(new ButtonTask(3, task4));
         List<InlineKeyboardButton> row5 = List.of(new ButtonTask(3, task5));
 
+        List<List<InlineKeyboardButton>> allKeys = List.of(row1, row2, row3, row4, row5);
+        List<List<InlineKeyboardButton>> randomKeys = new CollectionHelper<>(allKeys).getRandom(3);
+
         SendMessage result = new SendMessage();
         result.setChatId(chatId);
         result.setText(StringHelper.getUTF_8(message));
         result.setParseMode("markdown");
-        result.setReplyMarkup(ButtonsFactory.createButtons(row1, row2, row3, row4, row5));
+        result.setReplyMarkup(ButtonsFactory.createButtons(randomKeys));
 
         return result;
     }
